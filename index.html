@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <script>
-    function myFunction() {
-      if(Math.floor(Math.random() * 2) < 1){
-        document.getElementById("myText").innerHTML = "Sim";
-      } else {
-        document.getElementById("myText").innerHTML = "Não";
-      }
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Gigantesca</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 4em;
+            color: #333;
+        }
+    </style>
 </head>
-
-<body onload="myFunction()">
-
-  <pre id="myText"></pre>
-
+<body>
+    <h1>É SIM gigantesco</h1>
 </body>
-
 </html>
